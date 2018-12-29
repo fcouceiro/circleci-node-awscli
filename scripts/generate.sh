@@ -132,3 +132,6 @@ RUN apt-get -y install libgconf-2-4 \
   && mv chromedriver /usr/local/bin/chromedriver \
   && chmod +x /usr/local/bin/chromedriver"
 fi
+
+# install aws cli
+echo "RUN pip install awscli"
